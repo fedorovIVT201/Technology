@@ -1,0 +1,66 @@
+.page {
+    font-family: sans-serif;
+  }
+  
+  a {
+    color: white;
+  }
+  .header, footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    box-sizing: content-box;
+  }
+  
+  .header {
+    font-size: 0;
+    margin: auto;
+  }
+  .logo {
+    font-size: 10px;
+    width: 160px;
+    margin-left: 535px;
+    display: inline-block;
+  }
+  .menu {
+    font-size: 16px;
+    display: inline-block;
+  }
+  
+  .menu li {
+    margin-right: 5px;
+    display: inline;
+  }
+  
+  .columns {
+    width: 800px;
+    margin: 50px auto;
+    font-size: 0;
+  }
+  
+  .left {
+    width: 200px;
+    margin-right: 10px;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 16px;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .right {
+    width: 590px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 16px;
+    vertical-align: top;
+    display: inline-block;
+  }
+  
+  .left a {
+    margin-top: 5px;
+    display: block;
+  }
+  
