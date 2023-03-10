@@ -1,0 +1,17 @@
+.header {
+    position: absolute;
+    width: 100vw;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    background: #D7BE67;
+}
+.mainHeader {
+    background-color: aliceblue;
+    position: relative;
+    width: 330px;
+    height: 70px;
+    left: 100px;
+    font-family: monospace;
+    font-size: 60px;
+}
