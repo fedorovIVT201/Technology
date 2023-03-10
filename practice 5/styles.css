@@ -1,17 +1,95 @@
 .header {
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
     width: 100vw;
     height: 150px;
     left: 0px;
     top: 0px;
     background: #D7BE67;
+    z-index: 1;
+}
+.header-container {
+    position: relative;
+    left: 100px;
 }
 .mainHeader {
-    background-color: aliceblue;
-    position: relative;
-    width: 330px;
-    height: 70px;
-    left: 100px;
     font-family: monospace;
     font-size: 60px;
+}
+.rightcont {
+    position: relative;
+    right: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;
+}
+img {
+    width: 500px;
+    margin-top: 10px;
+}
+.content-container {
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 170px;
+}
+.sectionText {
+    font-style: italic;
+    text-align: center;
+}
+.brief {
+    text-align: center;
+    border-radius: 2%;
+    background-color: #D7BE67;
+    width: 500px;
+}
+.history {
+    text-align: center;
+    border-radius: 2%;
+    background-color: #D7BE67;
+    width: 500px;
+}
+.discography {
+    text-align: center;
+    border-radius: 2%;
+    background-color: #D7BE67;
+    width: 500px;
+}
+#links {
+    height: 50px;
+    background-color: #D7BE67;
+    padding-top: 30px;
+}
+.links {
+    left: 0px;
+    position: relative;
+    top: 170px;
+    font-weight: bolder;
+}
+a {
+    color: inherit;
+}
+.footer {
+    min-width: 100%;
+    position: relative;
+    top: 170px;
+}
+.footer-container {
+    text-align: center;
+    height: 50px;
+    background-color: #D7BE67;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
 }
