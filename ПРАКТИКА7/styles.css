@@ -1,0 +1,113 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 130px;	
+    background: #E17E7E;
+    z-index: 1;
+}
+.lefth {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 65px;
+}
+.righth {
+    margin-right: 73px;
+}
+h1 {
+    color: #FFFFFF;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.content {
+    background-image: url("img/Death-Stranding-Fan-Poster.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 807px;
+    height: 807px;
+    position: relative;
+    top: 130px;
+}
+.forma {
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 86px;
+    top: 65px;
+    background: #E17E7E;
+    border: 3px solid #FFFFFF;
+    border-radius: 20px;
+}
+.form-content {
+    position: relative;
+    left: 52px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+input {
+    position: relative;
+    border: none;
+    background-color: #E17E7E;
+    border-bottom: 2px solid white;
+    height: 24px;
+    width: 300px;
+    top: 20px;
+}
+.line {
+    margin-top: 45px;
+}
+.confirm {
+    position: absolute;
+    top: 589px;
+    left: 136px;
+}
+#button {
+    background: #E17E7E;
+    border: 5px solid #FFFFFF;
+    border-radius: 50px;
+    width: 300px;
+    height: 80px;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.footer {
+    min-width: 100%;
+    position: relative;
+    top: 130px;
+}
+.footer-container {
+    text-align: center;
+    height: 50px;
+    background-color: #E17E7E;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 440px) {
+    .header {
+        width: 100%;
+    }
+    .lefth {
+        display: none;
+    }
+    .righth {
+        margin-left: 357px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .content {
+        background-size: 440px 807px;
+    }
+}
